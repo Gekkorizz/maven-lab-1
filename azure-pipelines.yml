@@ -11,5 +11,5 @@ steps:
   - script: mvn clean install
     displayName: 'Build with Maven'
 
-  - script: java -jar target/maven_app-1.0-SNAPSHOT.jar.jar
+  - script: java -jar target/maven_app-1.0-SNAPSHOT.jar
     displayName: 'Run JAR file'
